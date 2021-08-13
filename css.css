@@ -141,13 +141,16 @@ a{
         color: var(--clr-bg-headings-buttons);
     }
 
-    a:hover.one{
+    a:hover.one,
+    a:focus.one{
         background-color: var(--clr-c1);
     }
-    a:hover.two{
+    a:hover.two,
+    a:focus.two{
         background-color: var(--clr-c2);
     }
-    a:hover.three{
+    a:hover.three,
+    a:focus.three{
         background-color: var(--clr-c3);
     }
     
