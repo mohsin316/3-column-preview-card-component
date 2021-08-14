@@ -99,7 +99,24 @@ a{
     
 }
 
+a:hover,
+a:focus{
+     border: 1px solid var(--clr-bg-headings-buttons);
+     color: var(--clr-bg-headings-buttons);
+    }
 
+a:hover.one,
+a:focus.one{
+        background-color: var(--clr-c1);
+    }
+a:hover.two,
+a:focus.two{
+        background-color: var(--clr-c2);
+    }
+a:hover.three,
+a:focus.three{
+        background-color: var(--clr-c3);
+    }
 
 @media screen and (min-width:700px) {
     body{
@@ -135,24 +152,7 @@ a{
         margin-bottom: 5rem;
     }
 
-    a:hover,
-    a:focus{
-        border: 1px solid var(--clr-bg-headings-buttons);
-        color: var(--clr-bg-headings-buttons);
-    }
-
-    a:hover.one,
-    a:focus.one{
-        background-color: var(--clr-c1);
-    }
-    a:hover.two,
-    a:focus.two{
-        background-color: var(--clr-c2);
-    }
-    a:hover.three,
-    a:focus.three{
-        background-color: var(--clr-c3);
-    }
+   
     
     
 }
